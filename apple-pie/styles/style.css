@@ -79,6 +79,7 @@ hr{
     
     font-size: 1.5rem;
      margin-bottom: 1rem;
+     color: black;
     
 }
 
@@ -97,4 +98,30 @@ hr{
 .ingredient-list::before{
     content: "-";
     margin-right: 0.5rem;
+}
+
+/* Directions */
+
+.recipe-directions h4{
+    
+    margin: 0 0 2rem 0;
+    
+}
+
+
+.recipe-directions{
+   padding: 2rem 0rem
+}
+
+
+
+#directions  ol > li{
+    counter-increment: listCounter;
+    margin-bottom: 0.4rem;
+    list-style: none;
+}
+
+#directions ol > li::before {
+    content: counter(listCounter) ")";
+    margin-right:0.5rem ;
 }
