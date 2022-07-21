@@ -20,5 +20,13 @@ body{
   background-size: cover;
 
   display: grid;
-  
+  align-items: center;
+  justify-content: center;
+
+}
+
+.background-img h2{
+  color: white;
+  font-size: 7rem;
+  font-weight: 300;
 }
