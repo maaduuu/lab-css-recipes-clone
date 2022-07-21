@@ -23,10 +23,32 @@ body{
   align-items: center;
   justify-content: center;
 
+  margin-bottom: 40px;
+
 }
 
 .background-img h2{
   color: white;
   font-size: 7rem;
   font-weight: 300;
+}
+
+
+
+.information-container{
+display: grid;
+grid-template-columns: 65%;
+justify-content: center;
+
+}
+
+.information-container h4{
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: 3rem;
+}
+
+
+.information-img{
+  
 }
